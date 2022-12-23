@@ -1,0 +1,34 @@
+.titulosCuriosos {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: rgb(156, 156, 156);
+  font-size: 3em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+li {
+  padding: .5em 2em;
+  margin-bottom: 1em;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(71, 71, 71);
+  font-size: 1.1em;
+}
+
+.impar{
+  box-shadow: 1px 1px 10px 2px black;
+}
+
+.par{
+  border: 2px solid red;
+}

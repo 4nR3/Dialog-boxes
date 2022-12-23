@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    top: 0;
+    left: 0;
+}
+
+input[type=button]{
+    background-color: gray;
+    width: 15vw;
+    height: 5vh;
+    font-size: large;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.contenedorButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.izquierdaArribaPPT{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50vh;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+
+    border: 4px black solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+
+}
+
+.izquierdaAbajoGaleria{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 50vh;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+
+    border: 4px black solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+.derechaCambiaColor{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+   
+    border: 4px black solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
